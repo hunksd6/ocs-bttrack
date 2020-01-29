@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # Written by Bram Cohen, and modified by Steven Shiau, Thomas Tsai, Ceasar Sun,
 # see LICENSE.txt for license information
