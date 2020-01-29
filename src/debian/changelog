@@ -1,3 +1,11 @@
+ocs-bttrack (0.2.1-drbl2) unstable; urgency=medium
+
+  * Recombiled on Debian Buster. 
+  * Explicitly make requirement as python or python2 because Ubuntu Focal does
+    not provide python anymore, instead it's python2.
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 11:47:37 +0800
+
 ocs-bttrack (0.2.1-drbl1) unstable; urgency=medium
 
   * Somehow the non-present event also +1 for self.state["completed"].items(), 

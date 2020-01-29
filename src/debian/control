@@ -9,7 +9,7 @@ Homepage: http://clonezilla.org
 
 Package: ocs-bttrack
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, python (>= 2.7) | python2 (>= 2.7), python (<< 2.8) | python2 (<< 2.8)
 Suggests: python-psyco
 Recommends: python-crypto
 Description: bittorrent tracker for Clonezilla server edition
