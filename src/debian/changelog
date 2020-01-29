@@ -1,3 +1,16 @@
+ocs-bttrack (0.2.2-drbl2) unstable; urgency=medium
+
+  * Improve the mechanism to assign the correct shebang. 
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 17:54:26 +0800
+
+ocs-bttrack (0.2.2-drbl1) unstable; urgency=medium
+
+  * Use python2 instead of python in shebang otherwise it might goes wrong
+    with python3.
+
+ -- Steven Shiau <steven@clonezilla.org>  Wed, 29 Jan 2020 16:46:40 +0800
+
 ocs-bttrack (0.2.1-drbl2) unstable; urgency=medium
 
   * Recombiled on Debian Buster. 

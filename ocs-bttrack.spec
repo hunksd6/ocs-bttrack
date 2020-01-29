@@ -1,6 +1,6 @@
 Summary: Clonezilla bittorrent restoring tracker
 Name: ocs-bttrack
-Version: 0.2
+Version: 0.2.2
 Release: drbl1
 Source0: %{name}-%{version}.tar.xz
 
@@ -9,7 +9,7 @@ Group:	Development/Clonezilla
 URL: http://clonezilla.org
 BuildRoot: %{_tmppath}/%{name}-buildroot
 Prefix: %{_prefix}
-Requires: coreutils, pciutils, procps, clonezilla >= 3.25.3
+Requires: coreutils, pciutils, procps, clonezilla >= 3.27.20
 ExclusiveArch: %{ix86}, x86_64
 
 %description
@@ -43,5 +43,9 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS LICENSE.txt README.txt
 
 %changelog
+* Wed Jan 29 2020 Steven Shiau <steven _at_ clonezilla org> 0.2.2-drbl1
+  * Use python2 instead of python in shebang otherwise it might goes wrong
+    with python3.
+
 * Mon Jun 06 2016 Steven Shiau <steven _at_ clonezilla org> 0.2-drbl1
 - Initial rpm package release (Not finished).
